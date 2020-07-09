@@ -13,13 +13,17 @@ h2{
 }
 
 .button{
-    width: 104px;
+    font-size: 1rem;
+    width: 6.5rem;
     background-color: #21B573;
     padding: .8rem 2rem;
     border: none;
-    border-radius: 33px;
+    border-radius: 2.1rem;
     text-align: center;
     color: white;
+}
+.green-bg{
+    background-color: #F0FFF0;
 }
 .top-section{
     height: 34rem;
@@ -51,9 +55,7 @@ h2{
 
 /*  ###################### Online Courses ################################### */
 
-.courses{
-    
-}
+
 .courses h2{
     color: #413960;
     text-align: center;
@@ -62,7 +64,7 @@ h2{
 
 .card {
     border: none;
-    box-shadow: 5px 5px 20px #ddd;
+    box-shadow: 5px 5px 30px #ddd;
     padding: 1rem 1rem 2rem 1rem;
     border-radius: 10px;
 }
@@ -96,9 +98,6 @@ h2{
     text-align: center;
     margin: 5rem 0 3rem 0;
 }
-.testimonil{
-    padding: 0 3rem 3rem 3rem;
-}
 
 
 /* Testimonial */
@@ -121,3 +120,74 @@ h2{
 
 }
 /* Footer  */
+
+
+/* ################## Responsive ###################### */
+
+
+@media screen and (max-width:970px) { 
+    .top-section  .menu-icon {
+        top: auto;
+        right: 2rem;
+        left: auto;
+        position: absolute;
+    }
+    .navbar-nav {
+        margin-top: -2rem;
+        text-align: center;
+    }
+    .navbar-nav .button{
+        margin: auto;
+    }
+    .card{
+        padding: .5rem;
+    }
+    .card-footer span{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:768px) {
+    .button{
+        padding: 2rem;
+    }
+    .top-section{
+        height: 56rem;
+    }
+    .header-descripton{
+        text-align: center;
+    }
+    .school-items .item{
+        margin-bottom: 1.3rem;
+    }
+    .card-margin-btm{
+        margin-bottom: 2rem;
+    }
+    .card{
+        padding: 1rem;
+    }
+    .card-footer span{
+        font-size: 14px;
+    }
+    .testimonil img  {
+        margin-bottom:  4rem;
+    }
+    .footer .cat {
+        display: grid;
+        margin: auto;
+    }
+}
+@media screen and (max-width:370px){
+    .container{
+        padding: 2rem 1rem;
+    }
+    .top-section{
+        height: 56rem;
+    }
+    .navbar-nav {
+        margin-top: -2rem;
+        text-align: center;
+    }
+}
+
+
+/* ------------------- Responsive ----------------------- */
